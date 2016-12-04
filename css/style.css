@@ -60,6 +60,18 @@ footer.page-footer {
 Stuff I've added
 */
 
-.contact-link {
+.text-underline {
   text-decoration: underline;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.nav-fixed-hard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
 }

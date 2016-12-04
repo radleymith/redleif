@@ -11,26 +11,26 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav class="white nav-fixed-hard" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Red Leif</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a><li>
-        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Solutions and Pricing</a><li>
         <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a><li>
-        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Solutions and Pricing</a><li>
         <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+  <hr>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -91,7 +91,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Offering a multitude of solutions based on your needs</h5>
+        </div>
+        <br><br>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Solutions In Depth</a>
         </div>
       </div>
     </div>
@@ -104,11 +108,33 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h4>Questions? Contact Us!</h4>
         </div>
       </div>
-
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">contact_phone</i></h2>
+            <h5 class="center">Phone</h5>
+            <address class="light center">
+              <a href="tel:+14102793151" class="text-underline black-text">
+                410-279-3151
+              </a>
+            </address>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">email</i></h2>
+            <h5 class="center">Email</h5>
+            <address class="light center">
+              <a href="mailto:bksmith23@gmail.com" class="text-underline black-text">
+                bksmith23@gmail.com
+              </a>
+            </address>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -117,7 +143,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
@@ -139,7 +165,7 @@
             </h6>
             <div>
               <em>
-                <span class="street-address">511 S Belnord Ave</span><br/>
+                <span class="street-address">511 S Belnord Ave</span><br>
                 <span class="city">Baltimore</span><span class="nbsp">&nbsp;</span>
                 <span class="state">MD</span><span class="nbsp">&nbsp;</span>
                 <span class="zip">21224</span>
@@ -154,17 +180,21 @@
               <span>
                 Phone:
               </span>
-              <a href="tel:+14102793151" class="white-text contact-link">
-                410-279-3151
-              </a>
+              <address class="display-inline">
+                <a href="tel:+14102793151" class="white-text text-underline">
+                  410-279-3151
+                </a>
+              </address>
             </li>
             <li class="white-text">
               <span>
                 Email:
               </span>
-              <a href="#!" class="white-text contact-link">
-                Link 2
-              </a>
+              <address class="display-inline">
+                <a href="mailto:bksmith23@gmail.com" class="white-text text-underline">
+                  bksmith23@gmail.com
+                </a>
+              </address>
             </li>
           </ul>
         </div>
